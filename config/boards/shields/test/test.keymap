@@ -11,7 +11,7 @@
               default_layer {
  // |  ESC   |   1    |
                      bindings = <
-       &kp F    &kp BT_CLR
+       &kp F    &bt BT_CLR
                      >;
               };
        };
