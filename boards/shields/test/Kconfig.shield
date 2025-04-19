@@ -1,5 +1,5 @@
 config SHIELD_TEST_LEFT
-    def_bool $(shields_list_contains,TEST_left)
+    def_bool $(shields_list_contains,test_left)
 
 config SHIELD_TEST_RIGHT
-    def_bool $(shields_list_contains,TEST_right)
+    def_bool $(shields_list_contains,test_right)
