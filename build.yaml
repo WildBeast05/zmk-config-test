@@ -3,5 +3,7 @@ include:
   - board: nice_nano_v2
     shield: test_left
   - board: nice_nano_v2
+    shield: shadebloom_v2
+  - board: nice_nano_v2
     shield: settings_reset
     
