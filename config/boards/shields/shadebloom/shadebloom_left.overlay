@@ -1,6 +1,6 @@
 #include "shadebloom.dtsi"
 
-kscan0: kscan {
+&kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
     wakeup-source;
     diode-direction = "row2col";
