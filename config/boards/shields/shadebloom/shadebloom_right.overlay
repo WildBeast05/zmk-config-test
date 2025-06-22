@@ -1,7 +1,7 @@
 #include "shadebloom.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    row-offset = <6>;
 };
 
 &kscan0 {
