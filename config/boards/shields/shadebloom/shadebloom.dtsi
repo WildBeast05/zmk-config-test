@@ -8,8 +8,8 @@
 
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
-        columns = <5>;
-        rows = <12>;
+        columns = <7>;
+        rows = <14>;
         map = <
         //  |LKey 1  |LKey 2  |LKey 3  |LKey 4  |LKey 5  |LKey 6  |LKey 7  |LKey 8  |LKey 9  |LKey 10  |LKey 11  |LKey 12 
 
@@ -25,11 +25,10 @@
 
              RC(0,4)  RC(1,4)  RC(2,4)  RC(3,4)  RC(4,4)  RC(5,4)  RC(6,4)  RC(7,4)  RC(8,4)  RC(9,4)  RC(10,4)  RC(11,4)
 
+            RC(6, 5)
 
+            RC(6, 6)
 
-
-
-            
         >;
     };
 
