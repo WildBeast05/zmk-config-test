@@ -14,7 +14,7 @@ if SHIELD_SHADEBLOOM_LEFT || SHIELD_SHADEBLOOM_RIGHT
 config ZMK_SPLIT
     default y
 
-CONFIG_ZMK_PM_SOFT_OFF
+config ZMK_PM_SOFT_OFF
     default y
 
 endif
