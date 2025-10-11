@@ -1,7 +1,7 @@
 #include "shadebloom.dtsi"
 
 &default_transform {
-    row-offset = <9s>;
+    row-offset = <9>;
 };
 
 &kscan0 {
@@ -30,5 +30,6 @@
                 <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&gpio0 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                 <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+
 
 };
