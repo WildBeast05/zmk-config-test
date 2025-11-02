@@ -23,8 +23,18 @@
        &kp A      &kp ESC &kp LALT &kp LGUI &kp LANG2 &kp A                                &kp A     &kp LANG1 &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT
        &kp SPACE &kp LSHIFT &kp LCTRL &kp LGUI                                               &kp SPACE &kp LSHIFT &kp LCTRL &kp LGUI
        &bt BT_CLR    &bt BT_CLR
-       &kp F  &kp F
+       &kp F  &studio_unlock
                      >;
+              };
+
+              extra_layer_1 {
+                     status = "reserved";
+              };
+              extra_layer_2 {
+                     status = "reserved";
+              };
+              extra_layer_3 {
+                     status = "reserved";
               };
        };
 };
